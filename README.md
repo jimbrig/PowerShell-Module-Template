@@ -1,3 +1,4 @@
+<!--LINK_DEFINITIONS:START-->
 [SOURCE_CODE]: ./Source/
 [BUILD]: ./Build/
 [DOCS]: ./Docs/
@@ -15,13 +16,14 @@
 [FAVICON]: ./Docs/Assets/favicon.ico
 [LATEST_RELEASE]: https://github.com/jimbrig/PowerShell-Module-Template/releases/latest
 [PSGALLERY]: https://www.powershellgallery.com/packages/PowerShell-Module-Template/
+<!--LINK_DEFINITIONS:END-->
 
 <!--TITLE:START-->
 
 <p style="vertical-alignment:middle; text-align:center; inline-block; width:100%;">
     <img src="./Docs/Assets/img/pwsh.png" alt="PowerShell Core" width="84" height="64" align="left" />
     <h1 align="center">PowerShell Module Template</h1>
-    <img src="./Docs/Assets/img/logo.png" alt="Logo" width="84" height="64" align="right" />
+    <img src="./Docs/Assets/img/logo.png" alt="Logo" width="84" height="64" style="float:right" />
 </p>
 
 <!--TITLE:END-->
@@ -31,7 +33,9 @@
 
 <!--DESCRIPTION:START-->
 
-<p align="center"><em>A template for creating PowerShell modules.</em></p>
+<p align="center">
+  <em>PowerShell Core Module Template Containing Various Utility and Helpers for Advanced Development Experience.</em>
+</p>
 
 <!--DESCRIPTION:END-->
 
@@ -40,7 +44,6 @@
 <!--LINKS:START-->
 
 <p align="center">
-    <em>PowerShell Core Module Template Containing Various Utility and Helpers for Advanced Development Experience.</em>
     <br>
     <br>
     <b>Links:</b>
