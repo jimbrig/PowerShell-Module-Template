@@ -20,10 +20,12 @@
 
 <!--TITLE:START-->
 
-<p style="vertical-alignment:middle; text-align:center; inline-block; width:100%;">
-    <img src="./Docs/Assets/img/pwsh.png" alt="PowerShell Core" width="84" height="64" align="left" />
-    <h1 align="center">PowerShell Module Template</h1>
-    <img src="./Docs/Assets/img/logo.png" alt="Logo" width="84" height="64" style="float:right" />
+<p style="vertical-alignment:middle; text-align:center;">
+    
+<h1 align="center">PowerShell Module Template
+      <img src="./Docs/Assets/img/pwsh.png" alt="PowerShell Core" width="84" height="64" style="float:left" />
+      <img src="./Docs/Assets/img/logo.png" alt="Logo" width="84" height="64" style="float:right;" />
+    </h1>
 </p>
 
 <!--TITLE:END-->
@@ -45,7 +47,6 @@
 
 <p align="center">
     <br>
-    <br>
     <b>Links:</b>
     <br>
     <a href=[SOURCE_CODE]>Source Code</a> |
@@ -55,7 +56,6 @@
     <br>
     <br>
     <em>View the repo's <a href=[CHANGELOG]>CHANGELOG</a> for details on the progression of the codebase over time.</em>
-    <br>
     <br>
 </p>
 
@@ -237,7 +237,8 @@ Install-PSResource -Name PSModuleTemplate -Repository PSGallery -Scope CurrentUs
 ## Usage
 
 ```powershell
-
+# TODO
+# etc...
 ```
 
 ***
