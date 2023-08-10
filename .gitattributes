@@ -1,0 +1,56 @@
+# Git Attributes
+
+# Set default behavior to automatically normalize line endings.
+*               text=auto
+
+# PowerShell
+# ======================
+*.ps1           text eol=crlf linguist-language=PowerShell
+*.ps1x          text eol=crlf linguist-language=PowerShell
+*.psm1          text eol=crlf linguist-language=PowerShell
+*.psd1          text eol=crlf linguist-language=PowerShell
+*.ps1xml        text eol=crlf linguist-language=XML
+*.pssc          text eol=crlf linguist-language=PowerShell
+*.psrc          text eol=crlf linguist-language=PowerShell
+*.cdxml         text eol=crlf linguist-language=XML
+
+# C#, .NET, Visual Studio
+# ======================
+*.cs       text eol=crlf    diff=csharp   linguist-language=C#
+*.cshtml   text eol=crlf    diff=HTML     linguist-language=HTML
+*.csx      text eol=crlf    diff=csharp   linguist-language=C#
+*.sln      text eol=crlf    diff=XML      linguist-language=XML
+*.csproj   text eol=crlf    diff=csharp   linguist-language=C#
+*.sln      text eol=crlf    diff=XML      linguist-language=XML
+*.xml      text eol=crlf    diff=XML      linguist-language=XML
+*.xaml     text eol=crlf    diff=XML      linguist-language=XML
+
+
+# Microsoft
+# ======================
+*.wsf           text eol=crlf linguist-language=XML
+*.bat           text eol=crlf linguist-language=Batchfile
+*.cmd           text eol=crlf linguist-language=Batchfile
+*.vb            text eol=crlf linguist-language=VBScript
+*.vbs           text eol=crlf linguist-language=VBScript
+
+
+# Binaries
+# ======================
+*.dll           binary linguist-detectable=false
+*.exe           binary linguist-detectable=false
+*.zip           binary linguist-detectable=false
+*.7z            binary linguist-detectable=false
+*.gz            binary linguist-detectable=false
+*.jpg           binary linguist-detectable=false
+*.jpeg          binary linguist-detectable=false
+*.pfx           binary linguist-detectable=false
+
+
+# Set HTML, JS, and CSS to Vendored
+# ======================
+*.html          linguist-vendored
+*.htm           linguist-vendored
+*.js            linguist-vendored
+*.css           linguist-vendored
+*.scss          linguist-vendored
