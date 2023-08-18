@@ -1,26 +1,35 @@
 # http://editorconfig.org
 root = true
 
+# All files
 [*]
 indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-# Use 4 spaces for the Python files
-[*.py]
 indent_size = 4
-max_line_length = 80
+insert_final_newline = true
+charset = utf-8
+
+# PowerShell
+[*.ps1, *.psm1, *.psd1, *.ps1xml]
+end_of_line = crlf
+trim_trailing_whitespace = true
+max_line_length = 150
+indent_style = space
+
+# C#
+[*.cs, *.csx]
+indent_size = 4
+indent_style = space
+end_of_line = crlf
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_before_members_in_anonymous_types = false
+csharp_new_line_between_query_expression_clauses = false
 
 # The JSON files contain newlines inconsistently
 [*.json]
-insert_final_newline = ignore
-
-# Minified JavaScript files shouldn't be changed
-[**.min.js]
-indent_style = ignore
 insert_final_newline = ignore
 
 # Makefiles always use tabs for indentation
@@ -31,6 +40,17 @@ indent_style = tab
 [*.bat]
 indent_style = tab
 
+# Markdown
 [*.md]
 trim_trailing_whitespace = false
+
+# Python
+[*.py]
+indent_size = 4
+max_line_length = 100
+
+# Minified JavaScript files shouldn't be changed
+[**.min.js]
+indent_style = ignore
+insert_final_newline = ignore
 
