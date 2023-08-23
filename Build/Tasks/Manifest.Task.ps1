@@ -14,3 +14,15 @@ Task UpdateManifest @{
         }
     }
 }
+
+Task BumpManifestVersion {
+    $version = Get-ModuleVersion -Path $ManifestPath
+    $version = $version.BumpVersion($BumpVersion)
+
+    "Bumping [$ManifestPath] to [$version]..."
+    Set-ModuleVersion -Path $ManifestPath -Version $version
+}
+
+Task CheckManifest {
+
+}
