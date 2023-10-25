@@ -16,35 +16,29 @@
 [FAVICON]: ./Docs/Assets/favicon.ico
 [LATEST_RELEASE]: https://github.com/jimbrig/PowerShell-Module-Template/releases/latest
 [PSGALLERY]: https://www.powershellgallery.com/packages/PowerShell-Module-Template/
+[PSGALLERY_PROFILE]: https://www.powershellgallery.com/profiles/jimbrig
 <!--LINK_DEFINITIONS:END-->
 
 <!--TITLE:START-->
-
-<p style="vertical-alignment:middle; text-align:center;">
-    
-<h1 align="center">PowerShell Module Template
-      <img src="./Docs/Assets/img/pwsh.png" alt="PowerShell Core" width="84" height="64" style="float:left" />
-      <img src="./Docs/Assets/img/logo.png" alt="Logo" width="84" height="64" style="float:right;" />
-    </h1>
-</p>
-
+<span style="vertical-alignment:middle">
+    <img src="./Docs/Assets/img/pwsh.png" width="84" height="64" align="left" style="float:left">
+    <img src="./Docs/Assets/img/logo.png" width="84" height="64" align="right" style="float:right">
+    <h1 align="center">PowerShell Module Template</h1>
+</span>
 <!--TITLE:END-->
 
 <br>
 <hr>
 
 <!--DESCRIPTION:START-->
-
 <p align="center">
   <em>PowerShell Core Module Template Containing Various Utility and Helpers for Advanced Development Experience.</em>
 </p>
-
 <!--DESCRIPTION:END-->
 
 <hr>
 
 <!--LINKS:START-->
-
 <p align="center">
     <br>
     <b>Links:</b>
@@ -58,46 +52,61 @@
     <em>View the repo's <a href=[CHANGELOG]>CHANGELOG</a> for details on the progression of the codebase over time.</em>
     <br>
 </p>
-
 <!--LINKS:END-->
 
 <hr>
 
+<!--BADGES:START-->
 <h2 align="center">Badges</h2>
 
 <span align="center">
 
-<!--BADGES:START-->
-
 [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSXLDevTools?color=0092ff&label=PowerShell%20Gallery&logoColor=0092ff)](https://www.powershellgallery.com/packages/PSXLDevTools/)
+[![Publish GitHub NuGet Package](https://github.com/jimbrig/PSXLDevTools/actions/workflows/ghpkg.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/ghpkg.yml)
 
 [![Test Module](https://github.com/jimbrig/PSXLDevTools/actions/workflows/test.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/test.yml)
 [![Build Module](https://github.com/jimbrig/PSXLDevTools/actions/workflows/build.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/build.yml)
-
 [![Publish Module](https://github.com/jimbrig/PSXLDevTools/actions/workflows/publish.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/publish.yml)
-[![Publish Documentation](https://github.com/jimbrig/PSXLDevTools/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/mkdocs.yml)
 
-[![Publish GitHub NuGet Package](https://github.com/jimbrig/PSXLDevTools/actions/workflows/ghpkg.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/ghpkg.yml)
+[![Publish Documentation](https://github.com/jimbrig/PSXLDevTools/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/mkdocs.yml)
 [![Automate Changelog](https://github.com/jimbrig/PSXLDevTools/actions/workflows/changelog.yml/badge.svg)](https://github.com/jimbrig/PSXLDevTools/actions/workflows/changelog.yml)
 
+</span>
 <!--BADGES:END-->
 
-</span>
 <hr>
 
-
+<!--TOC:START-->
 ## Contents
 
 <details>
 <summary>Table of Contents</summary>
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC) -->
-
+- [PowerShell Module Template](#powershell-module-template)
+  - [Badges](#badges)
+  - [Contents](#contents)
+  - [Overview](#overview)
+  - [Repository Structure](#repository-structure)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Appendices](#appendices)
+    - [Roadmap](#roadmap)
+    - [References](#references)
+    - [Acknowledgements](#acknowledgements)
+    - [Contributing](#contributing)
+    - [License](#license)
 <!-- AUTO-GENERATED-CONTENT:END -->
-
 </details>
+<!--TOC:END-->
+
+## Overview
+
+This project is a template for creating a PowerShell Core Module. 
 
 ## Repository Structure
+
+<!--REPO_STRUCTURE:START-->
 
 <details>
 <summary>Click to Expand Repository File Structure Diagram</summary>
@@ -222,9 +231,14 @@
 
 </details>
 
+<!--REPO_STRUCTURE:END-->
+
 ## Installation
 
-Install via the [PowerShell Gallery][PSGALLERY]:
+> [!NOTE]  
+> View my other PowerShell Creations from my [PowerShell Gallery Packages Profile][PSGALLERY_PROFILE]!
+
+- Install via the [PowerShell Gallery][PSGALLERY]:
 
 ```powershell
 # Using PowerShellGet (in PowerShell 5.0+)
@@ -245,6 +259,10 @@ Install-PSResource -Name PSModuleTemplate -Repository PSGallery -Scope CurrentUs
 
 ## Appendices
 
+### Roadmap
+
+- [ ] TODO
+
 ### References
 
 - [ ] TODO
@@ -264,3 +282,15 @@ Install-PSResource -Name PSModuleTemplate -Repository PSGallery -Scope CurrentUs
 ***
 
 Jimmy Briggs | 2023
+
+***
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
