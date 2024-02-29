@@ -1,0 +1,85 @@
+repo_name: jimbrig/PowerShell-Module-Template
+report_id: 6efde47ca28ce567767992a404755f19
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:59:01+00:00'
+requested_by: jimbrig
+provider: github
+branch: main
+detected_tools_count: 7
+tools:
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template/blob/main/Docs/en-US/about_{{ModuleName}}.help.txt
+  detection_source: Docs/en-US/about_{{ModuleName}}.help.txt
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template/blob/main/azure-pipelines.yml
+  detection_source: azure-pipelines.yml
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template/blob/main/.github/workflows/deps.yml
+  detection_source: ".github/workflows/deps.yml"
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-08-23 20:05:44.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2023-08-23 20:05:44.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template/blob/main/Docs/en-US/about_{{ModuleName}}.help.txt
+  detection_source: Docs/en-US/about_{{ModuleName}}.help.txt
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/jimbrig/PowerShell-Module-Template
+  detection_source: Repo Metadata
